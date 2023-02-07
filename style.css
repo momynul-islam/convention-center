@@ -1,0 +1,47 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background-color: #e5e5e5;
+  color: #3e3e3e;
+}
+
+nav a {
+  color: #3e3e3e;
+}
+
+.package-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.package-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.package-list li p {
+  margin-bottom: 0;
+}
+
+.pricing-card--active {
+  background-color: #3f87f5;
+  color: #fff;
+  transform: translateY(-50px);
+  position: relative;
+  box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+}
+
+.pricing-card--active span {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+footer {
+  background-color: #0b0d17;
+}
